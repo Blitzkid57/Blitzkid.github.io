@@ -1133,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+
   ];
 
   setTimeout(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -3174,10 +3174,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://img1.imgtp.com/2023/09/07/M1Ukprq6.jpg);
-    --darkmode-bg:url(https://img1.imgtp.com/2023/09/07/M1Ukprq6.jpg);
-    --mobileday-bg: url(https://img1.imgtp.com/2023/09/07/M1Ukprq6.jpg);
-    --mobilenight-bg: url(https://img1.imgtp.com/2023/09/07/M1Ukprq6.jpg);
+    --default-bg: url(https://s.imgkb.xyz/i/abcdocker/2023/10/21/6532a698d6696.jpg);
+    --darkmode-bg:url(https://s.imgkb.xyz/i/abcdocker/2023/10/21/6532a698d6696.jpg);
+    --mobileday-bg: url(https://s.imgkb.xyz/i/abcdocker/2023/10/21/6532a698d6696.jpg);
+    --mobilenight-bg: url(https://s.imgkb.xyz/i/abcdocker/2023/10/21/6532a698d6696.jpg);
   }`;
 }
 // 切换背景主函数
